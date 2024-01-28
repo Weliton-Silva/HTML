@@ -5,26 +5,35 @@
     em HTML class = em CSS é .
 */
 body {
-    background-color: rgba(144, 235, 156, 0.459);
+    background-color:#d6fde9;
     font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
 }
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
-    color: rgb(2, 90, 2);
+    color:#1e402f;
 }
-h1#principal {
-    color: white;
+#principal {
     text-align: center;
-    background-color: rgb(9, 44, 4);
+    background-color:#3c805e;
+    color:white;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(73, 158, 73);
+    color:#3c805e;
     text-decoration: underline;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-indent: 20px;
+}
+.basico {
+    color: #3c805e;
+}
+.intermediario {
+    color: #80793c;
+}
+.avancado {
+    color: #803c3c;
 }
